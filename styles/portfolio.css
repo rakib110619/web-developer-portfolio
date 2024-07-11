@@ -1,0 +1,100 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+/* header */
+.header{
+ background-image: url('../assets/Hero-bg.png');
+}
+/* nav styles */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul li{
+    list-style: none;
+}
+.section-titie{
+ font-size: 35px;
+ font-weight: bold;
+ color: black;   
+}
+
+.section-description{
+    font-size: 18px;
+    color: black;
+}
+.text-center{
+    text-align: center;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner-content{
+    text-align: center;
+    
+}
+.banner-content{
+    font-weight: bold;
+    font-size: 35px;
+}
+.banner-description{
+    font-weight: 250;
+    font-size: 30px;
+}
+.banner-profile-pic{
+    width: 580px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* about-2 styles */
+.about-2{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+/* skills section styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px bisque;
+}
